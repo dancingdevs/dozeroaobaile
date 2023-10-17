@@ -3,26 +3,35 @@
 <head>
     <title>Semana do Zero ao Baile</title>
     <style>
-        body {
+        .container {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f9f9f9;
             font-family: Arial, sans-serif;
         }
         h1 {
-            margin-bottom: 20px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 2em;
+        }
+        h3{
+            font-size: 1.0em;
+            font-style: italic;
+            margin-bottom: 0;
         }
         p {
-            margin-top: 20px;
+            margin-top: 10px;
+            font-size: 1rem;
+            justify-content: center;
+            text-align: center;
         }
         .video-container {
             position: relative;
             width: 100%;
-            max-width: 560px;
+            max-width: 800px;
         }
         .video-container::after {
             content: "";
@@ -49,13 +58,15 @@
     </style>
 </head>
 <body>
-<h3>Gustavo Silvestre Apresenta</h3>
-<h1>Semana do Zero ao Baile</h1>
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/eWUAykC7KX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+    <h3>Gustavo Silvestre Apresenta:</h3>
+    <h1>Semana do Zero ao Baile</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/eWUAykC7KX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p>Nesta semana, você aprenderá a dançar forró! <br>Prepare-se para dançar!</p>
+    <p><a href="https://contate.me/dozeroaobaile" class="whatsapp-button">Agende sua aula aqui!</a></p>
 </div>
-<p>Nesta semana, você aprenderá a dançar forró. Prepare-se para dançar!</p>
-<p><a href="https://contate.me/dozeroaobaile" class="whatsapp-button">Agende sua aula aqui!</a></p>
 
 </body>
 </html>
