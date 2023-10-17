@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <title>Semana do Zero ao Baile</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-top: 20px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 560px;
+        }
+        .video-container::after {
+            content: "";
+            display: block;
+            padding-bottom: 56.25%; /* Para um vídeo 16:9 */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h3>Gustavo Silvestre Apresenta</h3>
+<h1>Semana do Zero ao Baile</h1>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/eWUAykC7KX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>Nesta semana, você aprenderá a dançar forró. Prepare-se para dançar!</p>
+<p><a href="https://contate.me/dozeroaobaile" class="whatsapp-button">Agende sua aula aqui!</a></p>
+
+</body>
+</html>
