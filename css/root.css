@@ -1,0 +1,105 @@
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+
+    --blue-root-color:          #04497B;
+    --blue-light1-color:        #90CAF3;
+    --blue-light2-color:        #66A9D9;
+    --blue-light3-color:        #3D87BD;
+    --blue-light4-color:        #1C679E;
+    --blue-dark1-color:         #023962;
+    --blue-dark2-color:         #02325F;
+    --blue-dark3-color:         #02365B;
+    --blue-dark4-color:         #011E4A;
+
+    --red-root-color:           #AC141E;
+    --red-light1-color:         #F97079;
+    --red-light2-color:         #F45B65;
+    --red-light3-color:         #E24650;
+    --red-light4-color:         #C62630;
+    --red-dark1-color:          #9E0A14;
+    --red-dark2-color:          #8A020B;
+    --red-dark3-color:          #760202;
+    --red-dark4-color:          #660303;
+
+    --yellow-root-color:        #EDA53E;
+    --yellow-light1-color:      #FFCA64;
+    --yellow-light2-color:      #FFBF64;
+    --yellow-light3-color:      #F9B350;
+    --yellow-dark1-color:       #D68D24;
+    --yellow-dark2-color:       #C37B14;
+    --yellow-dark3-color:       #AE6803;
+
+    --green-root-color:         #13ce9f;
+    --green-light1-color:       #5CFED5;
+    --green-light2-color:       #36EABC;
+    --green-dark1-color:        #00AB80;
+    --green-dark2-color:        #01946F;
+
+    --white-root-color:             #F2F2F2;
+    --black-root-color:             #0D0D0D;
+    --silver-root-color:            #D9D9D9;
+
+    --gray-root-color:              #737373;
+    --gray-light1-color:            #BFBFBF;
+    --gray-light2-color:            #A6A6A6;
+    --gray-light3-color:            #8C8C8C;
+    --gray-dark1-color:             #595959;
+    --gray-dark2-color:             #3E3E3E;
+    --gray-dark3-color:             #262626;
+
+    --red-logo-color:               #590202;
+    --blue-logo-color:              #020659;
+    --navy-logo-color:              #010440;
+    --white-logo-color:             #F2F2F2;
+    --black-logo-color:             #0D0D0D;
+
+    --white-color:                  #ffffff;
+    --primary-color:                #F8CB2E;
+    --secondary-color:              #EE5007;
+
+    --navbar-bg-color:              var(--gray-dark2-color);
+
+    --navbar-bg-hover-color:        var(--green-root-color);
+    --navbar-hover-color:           var(--green-root-color);
+
+    --section-bg-color:             var(--black-root-color);
+
+    --text-logo-color:              var(--white-logo-color);
+
+    --custom-btn-bg-color:          var(--yellow-light1-color);
+
+    --custom-btn-color:             var(--gray-dark2-color);
+
+    --custom-btn-bg-hover-color:    var(--gray-light2-color);
+    --custom-btn-hover-color:       var(--gray-dark2-color);
+
+    --dark-color:                   var(--black-root-color);
+    --p-color:                      var(--white-root-color);
+    --border-color:                 var(--gray-light1-color);
+
+    --link-color:                   var(--green-light2-color);
+    --link-hover-color:             var(--yellow-light3-color);
+
+    --body-font-family:             'Outfit', sans-serif;
+
+    --h1-font-size:                 74px;
+    --h2-font-size:                 46px;
+    --h3-font-size:                 32px;
+    --h4-font-size:                 28px;
+    --h5-font-size:                 24px;
+    --h6-font-size:                 22px;
+    --p-font-size:                  18px;
+    --btn-font-size:                14px;
+    --copyright-font-size:          16px;
+
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          10px;
+
+    --font-weight-light:            300;
+    --font-weight-normal:           400;
+    --font-weight-bold:             700;
+}
